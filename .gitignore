@@ -1,4 +1,4 @@
-DS_Store
+.DS_Store
 unique_tracks.txt
 sang-artist-data.txt
 *{docx,doc}
