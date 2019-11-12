@@ -1,0 +1,6 @@
+För N = 1000000
+Linjärsökningen osorterad lista tog 0.0001 sekunder
+Sortering av en lista tog 7.3294 sekunder
+Linjärsökningen i sorterad lista tog 0.462 sekunder
+Binärsökningen i sorterad lista tog 0.0628 sekunder
+Uppslag i en dictionary tog 2.1e-07 sekunder

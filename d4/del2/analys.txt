@@ -1,0 +1,20 @@
+Teoretisk uppskattning:
+
+Komplexitet för QS = O(N*log(N))
+Komplexitet för upprepad linjärsökning = k*O(N)
+
+-> k = log(N), där k är hur många ggr linjärsökningen upprepas
+
+Exempel:
+för N=1000 blir k = log(1000) = 3 -> sortering lönar sig efter när den tredje längsta låten söks
+för N = 10000
+k=4
+
+
+Resultat: 
+
+för N = 1000
+k = 13
+
+för N = 10000
+k = 19

@@ -1,0 +1,16 @@
+Teoretisk uppskattning:
+
+Komplexitet för QS = O(N*log(N))
+Komplexitet för upprepad linjärsökning = k*O(N)
+
+-> k = log(N), där k är hur många ggr linjärsökningen upprepas
+
+Exempel:
+för N = 1000 000 blir k = log(1000 000) = 14 -> sortering lönar sig efter när den 14:nde längsta låten söks
+
+Resultat för N = 1000 000
+
+t_qs = 7 s
+t_ls = 0.5 s
+
+Slutsats: komplexitetet är högre än det genomsnittliga N*log(N)

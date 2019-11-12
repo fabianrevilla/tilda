@@ -1,0 +1,13 @@
+rad  1 <td class="changeDateLink weekColumn currentWeek t">v 44</td>
+rad  2     <td colspan="2" class="changeDateLink headline leftRounded t dateIsToday">Ti 2018-10-30</td>
+rad  3   <td class="headline rightRounded dateIsToday t" colspan="5"></td>
+rad  4 	</tr>
+rad  5 <tr data-id="174842"  class="rr clickable2" onclick="openRes(174842, this, 'time174842','&step=0')">
+rad  6   <td class="modifiedRecentlyTd"></td>
+rad  7 
+rad  8   <td id="time174842" class="time tt  la1  " title="ID 174842">08:00 - 10:00</td>
+rad  9         <td  class="column0 columnLine nw la1 ">Föreläsning</td>
+rad 10         <td  class="column1 columnLine nw la1 ">DD1321 Helklass</td>
+rad 11         <td  class="column0 columnLine nw la1 ">DD1321</td>
+rad 12         <td  class="column1 columnLine nw la1 ">D3</td>
+rad 13         <td  class="column0 columnLine la1 ">Alexander Baltatzis</td> 

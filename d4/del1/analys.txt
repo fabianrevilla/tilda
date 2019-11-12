@@ -1,0 +1,3 @@
+UPPSKATTNING:
+	Komplexitet för QS ligger runt O(N*log(n))
+	Komplexitet för linjärsökning ligger runt k*O(N)

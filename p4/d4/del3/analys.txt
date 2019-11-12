@@ -1,0 +1,30 @@
+DEL 1
+
+
+DEL 2 - När lönar sig sortering?
+Uppskattning: 
+Quicksort:  mellan O(N*log(N))- genomsnittlig komplexitet & O(N²) 
+Upprepad linjär sökning ligger mellan O(1) & O(N) - genomsnittlig komplexitet
+
+Utgår från:
+t_QuickSort=c*N*log(N)
+t_linSort=c*N*log(N)
+för N=100
+c=t/(N*log(N))
+c=1.2/(100*log(100))
+
+=> N=10, svar=vid 10 element i listan lönar det sig med QuickSort
+
+vid 100 rader ligger lönar det sig att sortera ungefär vid 8:nde längsta ordet.
+vid 1000 rader lönar det sig att sortera ungefär vid 19:nde längsta ordet.
+
+tiden för att att hitta N:nde längsta ordet utan sortering "hoppar" mycket mer än tiden det tar för att sortera, som är mer jämnt.
+
+DEL 3
+I tabellen är det tydligt att tiden för linjärsökning i sorterad lista med hyffsad nogrannhet ökar med en faktor 10 då antal element multipliceras med 10, alltså har algoritmen komplexiteten O(N).
+
+Binärsökning ökar med lite mer än linjärt, antagligen ligger komplexiteten mellan O(N) och det värsta fallet O(log2(N)).
+
+Vidare kan man se att tiden för quicksort ökar kraftigt med N, vilket tyder på att kompixeteten ligger mellan O(N*2log(N)) & värsta fallet O(N²). Uppslag i pythons dictionary är överlägset snabbast av alla algoritmer.
+
+
